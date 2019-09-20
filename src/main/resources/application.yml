@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: vevor-sofaboot
+  profiles:
+    active: dev
+
+#logging path
+logging:
+  path: D:\sofaboot\log
