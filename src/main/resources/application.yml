@@ -7,3 +7,9 @@ spring:
 #logging path
 logging:
   path: D:\sofaboot\log
+
+com:
+  alipay:
+    sofa:
+      rpc:
+        registry-address: nacos://127.0.0.1:8848
