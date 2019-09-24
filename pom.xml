@@ -71,6 +71,16 @@
             <artifactId>nacos-client</artifactId>
             <version>0.6.0</version>
         </dependency>
+        <!--SOFATracer-->
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>tracer-sofa-boot-starter</artifactId>
+        </dependency>
+        <!--SOFALookout-->
+        <dependency>
+            <groupId>com.alipay.sofa.lookout</groupId>
+            <artifactId>lookout-sofa-boot-starter</artifactId>
+        </dependency>
     </dependencies>
 
     <build>

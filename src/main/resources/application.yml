@@ -4,12 +4,25 @@ spring:
   profiles:
     active: dev
 
+server:
+  port: 9090
+
 #logging path
 logging:
   path: D:\sofaboot\log
 
+#服务注册中心
 com:
   alipay:
     sofa:
       rpc:
         registry-address: nacos://127.0.0.1:8848
+        bolt-port: 22200
+      #tracer数据上报的服务端zipkin地址
+      tracer:
+        zipkin:
+          base-url: http://47.103.124.72:9411
+      #添加metrics数据上报的服务端地址
+      lookout:
+        agent-host-address: 121.43.187.56
+
