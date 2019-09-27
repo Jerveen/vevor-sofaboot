@@ -42,8 +42,8 @@ public class HelloController {
 
     @ApiOperation(value = "保存员工信息", notes = "根据员工信息名以及部门信息保存员工信息")
     @ApiImplicitParams({
-            @ApiImplicitParam(name = "name", value = "员工姓名", required = true, dataType = "String"),
-            @ApiImplicitParam(name = "departmentId", value = "部门信息", required = true, dataType = "Long")
+            @ApiImplicitParam(name = "name", value = "员工姓名", required = true, dataType = "String", paramType = "query"),
+            @ApiImplicitParam(name = "departmentId", value = "部门信息", required = true, dataType = "Long", paramType = "query", example = "1")
     })
     @GetMapping("/saveEmployee")
     public Employee add(@RequestParam(name = "name", required = true) String name,
