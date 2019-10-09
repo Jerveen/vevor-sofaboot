@@ -5,7 +5,7 @@
     <parent>
         <groupId>com.alipay.sofa</groupId>
         <artifactId>sofaboot-dependencies</artifactId>
-        <version>2.5.3</version> <!-- lookup parent from repository -->
+        <version>3.1.5</version> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.vevor</groupId>
     <artifactId>sofaboot</artifactId>
@@ -68,7 +68,7 @@
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>rpc-sofa-boot-starter</artifactId>
-            <version>5.5.0</version>
+            <version>6.0.3</version>
         </dependency>
         <!--Nacos-->
         <dependency>
